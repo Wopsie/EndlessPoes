@@ -2,25 +2,48 @@
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {
-	public float jumpForce = 10f;
+
 	private Rigidbody2D myRB;
-	// Use this for initialization
+	
+	public float jumpForce = 10f;
+	private float elapsedTime = 0f;
+	public float maxExtraJump = 5f;
+	
+
 	void Start () 
 	{
 		GetTheComponents();
 	}
-	
-	// Update is called once per frame
+
 	void Update () 
 	{
 		GetButtonInput();
+	}
+
+	void FixedUpdate()
+	{
+		if(elapsedTime > maxExtraJump)
+		{
+			elapsedTime = maxExtraJump;
+		}
+		if (Input.GetKey(KeyCode.Space) && elapsedTime < maxExtraJump && myRB.velocity.y >= 0)
+		{
+			myRB.AddForce(new Vector2(0,jumpForce+(elapsedTime)));
+		}
 	}
 
 	void GetButtonInput ()
 	{
 		if (Input.GetKey(KeyCode.Space))
 		{
-			//this.myRB.AddForce (Vector2.up * jumpForce);
+			elapsedTime += Time.deltaTime*12;
+		}
+		else
+		{
+			if (myRB.velocity.y == 0)
+			{
+				elapsedTime = 0;
+			}
 		}
 	}
 
