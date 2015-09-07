@@ -117,9 +117,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 563b70e578eb94c97a6b012cabfe01f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 10
+  jumpForce: 2
   initialJumpForce: 200
-  maxExtraJump: 12
+  maxExtraJump: 2
 --- !u!212 &643605255
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -173,7 +173,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &643605258
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -247,7 +247,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 14.4502249
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

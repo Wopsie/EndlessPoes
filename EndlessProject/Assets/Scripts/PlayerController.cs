@@ -33,12 +33,11 @@ public class PlayerController : MonoBehaviour {
 		{
 			if(amIgrounded == false)
 			{
-			myRB.AddForce(new Vector2(0,jumpForce+(elapsedTime)));
+				myRB.AddForce(new Vector2(0,jumpForce+(elapsedTime)), ForceMode2D.Impulse);
 			}
 			else
 			{
-			myRB.AddForce(new Vector2(0,initialJumpForce));
-				Debug.Log("DOING IT");
+				myRB.AddForce(new Vector2(0,initialJumpForce));
 			}
 		}
 		if (amIgrounded == false && !Input.GetKey(KeyCode.Space))
