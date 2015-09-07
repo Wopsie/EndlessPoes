@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09b0aa61c8dc31f40a71e40f999744b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundSpeed: .5
+  groundSpeed: .300000012
   groundRespawnCords: 21.8400002
   offScreenCords: -21.8400002
 --- !u!212 &21289502
@@ -109,7 +109,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: groundSpeed
-      value: .5
+      value: .300000012
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_LocalScale.x
