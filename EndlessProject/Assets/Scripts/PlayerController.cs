@@ -3,6 +3,7 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
+	public ScoreManager myManager;
 	private Rigidbody2D myRB;
 
 	private float elapsedTime = 0f;
@@ -40,9 +41,17 @@ public class PlayerController : MonoBehaviour {
 	{
 		if(col.gameObject.tag == "GroundFloor")
 		{
-			Debug.Log("ENTER!");
 			amIgrounded = true; 
 			elapsedTime = 0;
+		}
+	}
+
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		if(other.gameObject.tag == "BonusPoints")
+		{
+			myManager.GetPointup();
+			Destroy(other.gameObject);
 		}
 	}
 
@@ -50,7 +59,6 @@ public class PlayerController : MonoBehaviour {
 	{
 		if(col.gameObject.tag == "GroundFloor")
 		{
-			Debug.Log("EXITE");
 			amIgrounded = false;
 			elapsedTime = 0;
 			myRB.AddForce(new Vector2(0,initialJumpForce/100));

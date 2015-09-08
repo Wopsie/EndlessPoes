@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - GroundFloor
+  - BonusPoints
   layers:
   - Default
   - TransparentFX

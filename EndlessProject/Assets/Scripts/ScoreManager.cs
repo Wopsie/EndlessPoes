@@ -21,4 +21,9 @@ public class ScoreManager : MonoBehaviour {
 			textForScore.text = "Score: "+myScore;
 		}
 	}
+
+	public void GetPointup(){
+		myScore+=500;
+		textForScore.text = "Score: "+myScore;
+	}
 }
