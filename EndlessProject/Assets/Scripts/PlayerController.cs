@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour {
 
 	void OnCollisionEnter2D (Collision2D col)
 	{
-		if(col.gameObject.name == "Ground")
+		if(col.gameObject.tag == "GroundFloor")
 		{
 			amIgrounded = true; 
 			elapsedTime = 0;
@@ -35,9 +35,10 @@ public class PlayerController : MonoBehaviour {
 
 	void OnCollisionExit2D (Collision2D col)
 	{
-		if(col.gameObject.name == "Ground")
+		if(col.gameObject.tag == "GroundFloor")
 		{
 			amIgrounded = false;
+			elapsedTime = 0;
 		}
 	}
 
