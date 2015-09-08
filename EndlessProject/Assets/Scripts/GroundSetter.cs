@@ -6,7 +6,7 @@ public class GroundSetter : MonoBehaviour {
     public float groundSpeed;
     public float groundRespawnCords;
     public float offScreenCords;
-    private float currentGroundHeight = transform.position.y;
+   // private float currentGroundHeight = transform.position.y;
     //private number groundHeight = Random.Range(-7.72f,-2.03f);
 
 	// Use this for initialization
