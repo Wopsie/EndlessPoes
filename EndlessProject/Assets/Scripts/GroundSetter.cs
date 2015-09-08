@@ -19,7 +19,7 @@ public class GroundSetter : MonoBehaviour {
     {
         transform.Translate(Vector2.left * groundSpeed);
 
-        var groundHeight = Random.Range(-7.72f, -2.03f);
+        var groundHeight = Random.Range(-7.72f, -1.8f);
         if (transform.position.x <= offScreenCords)
         {
             transform.position = new Vector3(groundRespawnCords, groundHeight, 0f);

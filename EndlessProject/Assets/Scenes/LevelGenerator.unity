@@ -220,15 +220,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 425278, guid: 3597a97a202f6472cbd52553142568e3, type: 2}
       propertyPath: m_LocalScale.x
-      value: .532117784
+      value: 5.61342907
       objectReference: {fileID: 0}
     - target: {fileID: 425278, guid: 3597a97a202f6472cbd52553142568e3, type: 2}
       propertyPath: m_LocalScale.y
-      value: .532117784
+      value: 5.61342669
       objectReference: {fileID: 0}
     - target: {fileID: 425278, guid: 3597a97a202f6472cbd52553142568e3, type: 2}
       propertyPath: m_LocalScale.z
-      value: .532117784
+      value: 5.61342669
       objectReference: {fileID: 0}
     - target: {fileID: 21252224, guid: 3597a97a202f6472cbd52553142568e3, type: 2}
       propertyPath: m_SortingOrder
@@ -542,6 +542,8 @@ GameObject:
   - 95: {fileID: 1517533444}
   - 212: {fileID: 1517533443}
   - 114: {fileID: 1517533446}
+  - 61: {fileID: 1517533448}
+  - 50: {fileID: 1517533447}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -599,7 +601,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1517533442}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.58361149, y: -3.3152523, z: -1}
+  m_LocalPosition: {x: 6.07000017, y: -1.48000002, z: -1}
   m_LocalScale: {x: 4.4000001, y: 4.4000001, z: 4.4000001}
   m_Children: []
   m_Father: {fileID: 0}
@@ -615,9 +617,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 160d8d7cdbc0eb54e8274759d0d90f80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundSpeed: .300000012
-  groundRespawnCords: 0
-  offScreenCords: 0
+  groundSpeed: .200000003
+  groundRespawnCords: 12
+  offScreenCords: -12
+  groundEnemySpeed: .300000012
+--- !u!50 &1517533447
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1517533442}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &1517533448
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1517533442}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: .460000008, y: .379999995}
 --- !u!1 &1874796993
 GameObject:
   m_ObjectHideFlags: 0
