@@ -176,6 +176,10 @@ Prefab:
       propertyPath: m_Constraints
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 131770, guid: 3d864b41fa23bd1418e5d7956f018b48, type: 2}
+      propertyPath: m_TagString
+      value: GroundFloor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d864b41fa23bd1418e5d7956f018b48, type: 2}
   m_IsPrefabParent: 0
@@ -477,6 +481,10 @@ Prefab:
     - target: {fileID: 456098, guid: 3d864b41fa23bd1418e5d7956f018b48, type: 2}
       propertyPath: m_LocalScale.x
       value: 2.7750001
+      objectReference: {fileID: 0}
+    - target: {fileID: 131770, guid: 3d864b41fa23bd1418e5d7956f018b48, type: 2}
+      propertyPath: m_TagString
+      value: GroundFloor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d864b41fa23bd1418e5d7956f018b48, type: 2}
