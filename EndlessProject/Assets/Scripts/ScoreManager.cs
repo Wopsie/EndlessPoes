@@ -17,7 +17,7 @@ public class ScoreManager : MonoBehaviour {
 		easyTimer++;
 		if(easyTimer%100==1&&easyTimer!=0)
 		{
-			myScore++;
+			myScore+=100;
 			textForScore.text = "Score: "+myScore;
 		}
 	}
