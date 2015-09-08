@@ -1,0 +1,1980 @@
+fileFormatVersion: 2
+guid: 31868c9c5364c4c5fac7126fa2fe36a6
+timeCreated: 1441636928
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BirdUnityGame_0
+    21300002: BirdUnityGame_1
+    21300004: BirdUnityGame_2
+    21300006: BirdUnityGame_3
+    21300008: BirdUnityGame_4
+    21300010: BirdUnityGame_5
+    21300012: BirdUnityGame_6
+    21300014: BirdUnityGame_7
+    21300016: BirdUnityGame_8
+    21300018: BirdUnityGame_9
+    21300020: BirdUnityGame_10
+    21300022: BirdUnityGame_11
+    21300024: BirdUnityGame_12
+    21300026: BirdUnityGame_13
+    21300028: BirdUnityGame_14
+    21300030: BirdUnityGame_15
+    21300032: BirdUnityGame_16
+    21300034: BirdUnityGame_17
+    21300036: BirdUnityGame_18
+    21300038: BirdUnityGame_19
+    21300040: BirdUnityGame_20
+    21300042: BirdUnityGame_21
+    21300044: BirdUnityGame_22
+    21300046: BirdUnityGame_23
+    21300048: BirdUnityGame_24
+    21300050: BirdUnityGame_25
+    21300052: BirdUnityGame_26
+    21300054: BirdUnityGame_27
+    21300056: BirdUnityGame_28
+    21300058: BirdUnityGame_29
+    21300060: BirdUnityGame_30
+    21300062: BirdUnityGame_31
+    21300064: BirdUnityGame_32
+    21300066: BirdUnityGame_33
+    21300068: BirdUnityGame_34
+    21300070: BirdUnityGame_35
+    21300072: BirdUnityGame_36
+    21300074: BirdUnityGame_37
+    21300076: BirdUnityGame_38
+    21300078: BirdUnityGame_39
+    21300080: BirdUnityGame_40
+    21300082: BirdUnityGame_41
+    21300084: BirdUnityGame_42
+    21300086: BirdUnityGame_43
+    21300088: BirdUnityGame_44
+    21300090: BirdUnityGame_45
+    21300092: BirdUnityGame_46
+    21300094: BirdUnityGame_47
+    21300096: BirdUnityGame_48
+    21300098: BirdUnityGame_49
+    21300100: BirdUnityGame_50
+    21300102: BirdUnityGame_51
+    21300104: BirdUnityGame_52
+    21300106: BirdUnityGame_53
+    21300108: BirdUnityGame_54
+    21300110: BirdUnityGame_55
+    21300112: BirdUnityGame_56
+    21300114: BirdUnityGame_57
+    21300116: BirdUnityGame_58
+    21300118: BirdUnityGame_59
+    21300120: BirdUnityGame_60
+    21300122: BirdUnityGame_61
+    21300124: BirdUnityGame_62
+    21300126: BirdUnityGame_63
+    21300128: BirdUnityGame_64
+    21300130: BirdUnityGame_65
+    21300132: BirdUnityGame_66
+    21300134: BirdUnityGame_67
+    21300136: BirdUnityGame_68
+    21300138: BirdUnityGame_69
+    21300140: BirdUnityGame_70
+    21300142: BirdUnityGame_71
+    21300144: BirdUnityGame_72
+    21300146: BirdUnityGame_73
+    21300148: BirdUnityGame_74
+    21300150: BirdUnityGame_75
+    21300152: BirdUnityGame_76
+    21300154: BirdUnityGame_77
+    21300156: BirdUnityGame_78
+    21300158: BirdUnityGame_79
+    21300160: BirdUnityGame_80
+    21300162: BirdUnityGame_81
+    21300164: BirdUnityGame_82
+    21300166: BirdUnityGame_83
+    21300168: BirdUnityGame_84
+    21300170: BirdUnityGame_85
+    21300172: BirdUnityGame_86
+    21300174: BirdUnityGame_87
+    21300176: BirdUnityGame_88
+    21300178: BirdUnityGame_89
+    21300180: BirdUnityGame_90
+    21300182: BirdUnityGame_91
+    21300184: BirdUnityGame_92
+    21300186: BirdUnityGame_93
+    21300188: BirdUnityGame_94
+    21300190: BirdUnityGame_95
+    21300192: BirdUnityGame_96
+    21300194: BirdUnityGame_97
+    21300196: BirdUnityGame_98
+    21300198: BirdUnityGame_99
+    21300200: BirdUnityGame_100
+    21300202: BirdUnityGame_101
+    21300204: BirdUnityGame_102
+    21300206: BirdUnityGame_103
+    21300208: BirdUnityGame_104
+    21300210: BirdUnityGame_105
+    21300212: BirdUnityGame_106
+    21300214: BirdUnityGame_107
+    21300216: BirdUnityGame_108
+    21300218: BirdUnityGame_109
+    21300220: BirdUnityGame_110
+    21300222: BirdUnityGame_111
+    21300224: BirdUnityGame_112
+    21300226: BirdUnityGame_113
+    21300228: BirdUnityGame_114
+    21300230: BirdUnityGame_115
+    21300232: BirdUnityGame_116
+    21300234: BirdUnityGame_117
+    21300236: BirdUnityGame_118
+    21300238: BirdUnityGame_119
+    21300240: BirdUnityGame_120
+    21300242: BirdUnityGame_121
+    21300244: BirdUnityGame_122
+    21300246: BirdUnityGame_123
+    21300248: BirdUnityGame_124
+    21300250: BirdUnityGame_125
+    21300252: BirdUnityGame_126
+    21300254: BirdUnityGame_127
+    21300256: BirdUnityGame_128
+    21300258: BirdUnityGame_129
+    21300260: BirdUnityGame_130
+    21300262: BirdUnityGame_131
+    21300264: BirdUnityGame_132
+    21300266: BirdUnityGame_133
+    21300268: BirdUnityGame_134
+    21300270: BirdUnityGame_135
+    21300272: BirdUnityGame_136
+    21300274: BirdUnityGame_137
+    21300276: BirdUnityGame_138
+    21300278: BirdUnityGame_139
+    21300280: BirdUnityGame_140
+    21300282: BirdUnityGame_141
+    21300284: BirdUnityGame_142
+    21300286: BirdUnityGame_143
+    21300288: BirdUnityGame_144
+    21300290: BirdUnityGame_145
+    21300292: BirdUnityGame_146
+    21300294: BirdUnityGame_147
+    21300296: BirdUnityGame_148
+    21300298: BirdUnityGame_149
+    21300300: BirdUnityGame_150
+    21300302: BirdUnityGame_151
+    21300304: BirdUnityGame_152
+    21300306: BirdUnityGame_153
+    21300308: BirdUnityGame_154
+    21300310: BirdUnityGame_155
+    21300312: BirdUnityGame_156
+    21300314: BirdUnityGame_157
+    21300316: BirdUnityGame_158
+    21300318: BirdUnityGame_159
+    21300320: BirdUnityGame_160
+    21300322: BirdUnityGame_161
+    21300324: BirdUnityGame_162
+    21300326: BirdUnityGame_163
+    21300328: BirdUnityGame_164
+    21300330: BirdUnityGame_165
+    21300332: BirdUnityGame_166
+    21300334: BirdUnityGame_167
+    21300336: BirdUnityGame_168
+    21300338: BirdUnityGame_169
+    21300340: BirdUnityGame_170
+    21300342: BirdUnityGame_171
+    21300344: BirdUnityGame_172
+    21300346: BirdUnityGame_173
+    21300348: BirdUnityGame_174
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BirdUnityGame_0
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1229
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1239
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1189
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1189
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1189
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_5
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1189
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_6
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1189
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_7
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1189
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_8
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1189
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_9
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1189
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1189
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1189
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_12
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1189
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_13
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1155
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_14
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1155
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_15
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1155
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_16
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1155
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_17
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1155
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1117
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_19
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1117
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_20
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1117
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_21
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1117
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1117
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_23
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1117
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_24
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1117
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_25
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1077
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_26
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1077
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_27
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1077
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_28
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1020
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_29
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1020
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_30
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1020
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_31
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1020
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_32
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1020
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_33
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1020
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_34
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 964
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_35
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 964
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_36
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 964
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_37
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 964
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_38
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 964
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_39
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 964
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_40
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 964
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_41
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 964
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_42
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 964
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_43
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 964
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_44
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 964
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_45
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 964
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_46
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 923
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_47
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 923
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_48
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 923
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_49
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 875
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_50
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 898
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_51
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 899
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_52
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 882
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_53
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 881
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_54
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 831
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 831
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_56
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 831
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_57
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 831
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_58
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 791
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_59
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 791
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_60
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 791
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_61
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 791
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_62
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 791
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_63
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 791
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_64
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 791
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_65
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 791
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_66
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 751
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_67
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 751
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_68
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 751
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_69
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 751
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_70
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 706
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_71
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 706
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_72
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 706
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_73
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 706
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_74
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 706
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_75
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 706
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_76
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 706
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_77
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 706
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_78
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 706
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_79
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 616
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_80
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 655
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_81
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 655
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_82
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 655
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_83
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 655
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_84
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 655
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_85
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 655
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_86
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 655
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_87
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 616
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_88
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 616
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_89
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 616
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_90
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 616
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_91
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 616
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_92
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 616
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_93
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 616
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_94
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 616
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_95
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 616
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_96
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 616
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_97
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 582
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_98
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 582
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_99
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 582
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_100
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 582
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_101
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 582
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_102
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 544
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_103
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 544
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_104
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 544
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_105
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 544
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 544
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_107
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 544
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_108
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 544
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_109
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 504
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_110
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 504
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_111
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 504
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_112
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 447
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_113
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 447
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_114
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 447
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_115
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 447
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_116
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 447
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_117
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 447
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_118
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 391
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_119
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 391
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_120
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 391
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_121
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 391
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_122
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 391
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_123
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 391
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_124
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 391
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_125
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 391
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_126
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 391
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_127
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 391
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_128
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 391
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_129
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 391
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_130
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 350
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_131
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 350
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_132
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 350
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_133
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 302
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_134
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 325
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_135
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 326
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_136
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 309
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_137
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 308
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_138
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 258
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_139
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 258
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_140
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 258
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_141
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 258
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_142
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 218
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_143
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 218
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_144
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 218
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_145
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 218
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_146
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 218
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_147
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 218
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_148
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 218
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_149
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 218
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_150
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 178
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_151
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 178
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_152
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 178
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_153
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 178
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_154
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 133
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_155
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 133
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_156
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 133
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_157
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 133
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_158
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 133
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_159
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 133
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_160
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 133
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_161
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 133
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_162
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 133
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_163
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 101
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_164
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 101
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_165
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 101
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_166
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 101
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_167
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 101
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_168
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 101
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_169
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 91
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_170
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 91
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_171
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 91
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_172
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 91
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_173
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 91
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BirdUnityGame_174
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 9
+        width: 366
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
