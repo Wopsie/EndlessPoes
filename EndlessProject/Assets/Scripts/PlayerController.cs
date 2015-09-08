@@ -17,17 +17,30 @@ public class PlayerController : MonoBehaviour {
 	{
 		GetTheComponents();
 	}
+
+	void Update()
+	{
+
+	}
 	
 	void FixedUpdate()
 	{
-		GetButtonInput();
 		ElapsedTimeManager();
+		GetButtonInput();
+		if(amIgrounded == false)
+		{
+			if(Mathf.Approximately(0,myRB.velocity.y))
+			{
+			amIgrounded = true;
+			}
+		}
 	}
 
 	void OnCollisionEnter2D (Collision2D col)
 	{
 		if(col.gameObject.tag == "GroundFloor")
 		{
+			Debug.Log("ENTER!");
 			amIgrounded = true; 
 			elapsedTime = 0;
 		}
@@ -37,8 +50,10 @@ public class PlayerController : MonoBehaviour {
 	{
 		if(col.gameObject.tag == "GroundFloor")
 		{
+			Debug.Log("EXITE");
 			amIgrounded = false;
 			elapsedTime = 0;
+			myRB.AddForce(new Vector2(0,initialJumpForce/100));
 		}
 	}
 
@@ -53,6 +68,7 @@ public class PlayerController : MonoBehaviour {
 			if(amIgrounded == false)
 			{
 				myRB.AddForce(new Vector2(0,jumpForce+(elapsedTime)), ForceMode2D.Impulse);
+				amIgrounded = false;
 			}
 			else
 			{
@@ -63,7 +79,7 @@ public class PlayerController : MonoBehaviour {
 
 	void ElapsedTimeManager()
 	{
-		if(elapsedTime > maxExtraJump)
+		if((elapsedTime > maxExtraJump))
 		{
 			elapsedTime = maxExtraJump;
 		}
