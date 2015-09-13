@@ -1,13 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GroundEnemyPlacing : GroundSetter
+public class GroundEnemyPlacing : MonoBehaviour
 {
 
-    //private float gEnemyRespawncords = groundHeight + 6f;
-    private float gEnemyOffScreenCords = Random.Range(-12.3f, -50f);
+    private float gEnemyOffScreenCords = -24f;
     public float groundEnemySpeed = 0.3f;
-
+    
 	// Use this for initialization
 	void Start () 
     {
@@ -18,5 +17,11 @@ public class GroundEnemyPlacing : GroundSetter
 	void FixedUpdate () 
     {
         transform.Translate(Vector2.left * groundEnemySpeed);  
+        if(transform.position.x <= gEnemyOffScreenCords)
+        {
+            Destroy(gameObject);
+        }
 	}
+
+    
 }

@@ -1,21 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PointUp : Obstacle {
-	//public float moveSpeed = 10f;
+public class Crate : Obstacle {
+
+    private float crateOffScreenCords = -24f;
+
 	// Use this for initialization
 	void Start () {
 	
 	}
 	
 	// Update is called once per frame
-
-    void FixedUpdate()
+	void FixedUpdate () 
     {
         transform.Translate(Vector2.left * obstacleSpeed);
-        if(transform.position.x <= -24)
+        if(transform.position.x <= crateOffScreenCords)
         {
             Destroy(gameObject);
         }
-    }
+	}
 }
