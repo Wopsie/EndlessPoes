@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour {
 
 	public ScoreManager myManager;
 	private Rigidbody2D myRB;
+	private Animator animator;
 
 	private float elapsedTime = 0f;
 	public float jumpForce = 10f;
@@ -12,6 +13,7 @@ public class PlayerController : MonoBehaviour {
 	public float maxExtraJump = 5f;
 
 	private bool amIgrounded = false;
+	private bool doIHavePowerUp = false;
 	
 
 	void Start () 
@@ -19,28 +21,18 @@ public class PlayerController : MonoBehaviour {
 		GetTheComponents();
 	}
 
-	void Update()
-	{
-
-	}
-	
 	void FixedUpdate()
 	{
+		FallingCheck();
 		ElapsedTimeManager();
 		GetButtonInput();
-		if(amIgrounded == false)
-		{
-			if(Mathf.Approximately(0,myRB.velocity.y))
-			{
-			amIgrounded = true;
-			}
-		}
 	}
 
 	void OnCollisionEnter2D (Collision2D col)
 	{
 		if(col.gameObject.tag == "GroundFloor")
 		{
+			animator.SetBool("AmIGrounded",true);
 			amIgrounded = true; 
 			elapsedTime = 0;
 		}
@@ -53,12 +45,23 @@ public class PlayerController : MonoBehaviour {
 			myManager.GetPointup();
 			Destroy(other.gameObject);
 		}
+
+		if(other.gameObject.tag == "PowerUp")
+		{
+			Destroy(other.gameObject);
+			if(doIHavePowerUp == false)
+			{
+				doIHavePowerUp = true;
+				animator.SetBool("PowerUpAniState",true);
+			}
+		}
 	}
 
 	void OnCollisionExit2D (Collision2D col)
 	{
 		if(col.gameObject.tag == "GroundFloor")
 		{
+			animator.SetBool("AmIGrounded",false);
 			amIgrounded = false;
 			elapsedTime = 0;
 			myRB.AddForce(new Vector2(0,initialJumpForce/100));
@@ -98,8 +101,24 @@ public class PlayerController : MonoBehaviour {
 		}
 	}
 
+	void FallingCheck()
+	{
+		if(amIgrounded == false)
+		{
+			if(myRB.velocity.y<0)
+			{
+				animator.SetBool("AmIFalling",true);
+			}
+			else
+			{
+				animator.SetBool("AmIFalling", false);
+			}
+		}
+	}
+
 	void GetTheComponents()
 	{
+		animator = GetComponent<Animator>();
 		myRB = GetComponent<Rigidbody2D>();
 	}
 
