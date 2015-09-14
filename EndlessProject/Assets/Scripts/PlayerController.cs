@@ -36,6 +36,21 @@ public class PlayerController : MonoBehaviour {
 			amIgrounded = true; 
 			elapsedTime = 0;
 		}
+
+		if(col.gameObject.tag == "HurtPlayer")
+		{
+			if(doIHavePowerUp == true)
+			{
+				doIHavePowerUp = false;
+				animator.SetBool("PowerUpAniState", false);
+				Destroy(col.gameObject);
+			}
+			else if(doIHavePowerUp == false)
+			{
+				Destroy(this.gameObject);
+				//Player death
+			}
+		}
 	}
 
 	void OnTriggerEnter2D(Collider2D other)
