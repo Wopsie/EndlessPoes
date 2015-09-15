@@ -56,9 +56,10 @@ public class Obstacle : MonoBehaviour
     {
         //spawns = Spawns.Enemy;
         spawns = (Spawns)Random.Range(0, 4);
-        var clone = (GameObject) Instantiate(map[spawns], transform.position, Quaternion.identity);
+        // clone = (GameObject) 
+			Instantiate(map[spawns], transform.position, Quaternion.identity);
 
-        switch(clone.Tag)
+       /* switch(clone.Tag)
         {
             case clone.BonusPoints:
                 transform.position.y = Random.Range(-6.4, 0);
@@ -67,7 +68,7 @@ public class Obstacle : MonoBehaviour
                 transform.position.y = Random.Range(-6.4, 0);
             break;
 
-        }
+        }*/
     }
 
     public void ObjMovement()

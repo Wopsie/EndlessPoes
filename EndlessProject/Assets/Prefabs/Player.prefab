@@ -27,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 170236}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.3500004, y: -1.22000003, z: 0}
+  m_LocalPosition: {x: -3.3599999, y: -1.88999999, z: 0}
   m_LocalScale: {x: 2.61249995, y: 2.74218774, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -90,6 +90,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myManager: {fileID: 0}
+  fallingDead: {fileID: 489494, guid: 1c9211900ab7843959ff7daef5074cd8, type: 2}
   jumpForce: 1.39999998
   initialJumpForce: 300
   maxExtraJump: 2.5999999
