@@ -12,6 +12,7 @@ public class Obstacle : MonoBehaviour
 
     public float objOffScreenCords = -24f;
     
+    
     public enum Spawns
     {
         PowerUp,
@@ -56,19 +57,18 @@ public class Obstacle : MonoBehaviour
     {
         //spawns = Spawns.Enemy;
         spawns = (Spawns)Random.Range(0, 4);
-        // clone = (GameObject) 
-			Instantiate(map[spawns], transform.position, Quaternion.identity);
+        var clone = (GameObject) Instantiate(map[spawns], transform.position, Quaternion.identity);
 
-       /* switch(clone.Tag)
+        switch(clone.tag)
         {
-            case clone.BonusPoints:
-                transform.position.y = Random.Range(-6.4, 0);
-            break;
-            case clone.PowerUp:
-                transform.position.y = Random.Range(-6.4, 0);
-            break;
+            case "BonusPoints":
+                clone.transform.position = new Vector3(38f, Random.Range(-6.4f, 0f), 0f);
+                break;
 
-        }*/
+            case "PowerUp":
+                clone.transform.position = new Vector3(38f, Random.Range(-6.4f, 0f), 0f);
+                break;
+        }
     }
 
     public void ObjMovement()
