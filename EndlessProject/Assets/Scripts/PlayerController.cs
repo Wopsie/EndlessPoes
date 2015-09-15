@@ -4,6 +4,7 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 
 	public ScoreManager myManager;
+	public Transform fallingDead;
 	private Rigidbody2D myRB;
 	private Animator animator;
 
@@ -40,15 +41,25 @@ public class PlayerController : MonoBehaviour {
 
 		if(col.gameObject.tag == "HurtPlayer")
 		{
-			if(doIHavePowerUp == true)
+			if(amIgrounded == false && myRB.velocity.y<0)
 			{
-				doIHavePowerUp = false;
-				animator.SetBool("PowerUpAniState", false);
+				Instantiate(fallingDead, col.gameObject.transform.position, Quaternion.identity);
 				Destroy(col.gameObject);
+				myRB.AddForce(new Vector2(0,initialJumpForce*3.5f));
 			}
-			else if(doIHavePowerUp == false)
+			else
 			{
-				PlayerDeath();
+				if(doIHavePowerUp == true)
+				{
+					doIHavePowerUp = false;
+					animator.SetBool("PowerUpAniState", false);
+					Instantiate(fallingDead, col.gameObject.transform.position, Quaternion.identity);
+					Destroy(col.gameObject);
+				}
+				else if(doIHavePowerUp == false)
+				{
+					PlayerDeath();
+				}
 			}
 		}
 	}
