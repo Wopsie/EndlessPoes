@@ -87,6 +87,23 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &55608325 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 128674, guid: 4d20e6c6a273641918ffe6d58c03e2a7, type: 2}
+  m_PrefabInternal: {fileID: 2144130079}
+--- !u!61 &55608326
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 55608325}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.99999964, y: 1.99999976}
 --- !u!1001 &141293383
 Prefab:
   m_ObjectHideFlags: 0
@@ -680,6 +697,14 @@ Prefab:
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 11478188, guid: 3597a97a202f6472cbd52553142568e3, type: 2}
+      propertyPath: respawnPosition.x
+      value: -14.3500004
+      objectReference: {fileID: 0}
+    - target: {fileID: 11478188, guid: 3597a97a202f6472cbd52553142568e3, type: 2}
+      propertyPath: respawnPosition.y
+      value: -1.22000003
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3597a97a202f6472cbd52553142568e3, type: 2}
   m_IsPrefabParent: 0
@@ -771,7 +796,7 @@ Transform:
   m_Children:
   - {fileID: 1061528639}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
 --- !u!82 &1874796999
 AudioSource:
   m_ObjectHideFlags: 0
@@ -862,6 +887,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1965204362}
   - 114: {fileID: 1965204361}
+  - 114: {fileID: 1965204363}
   m_Layer: 0
   m_Name: ObjSpawner
   m_TagString: Untagged
@@ -896,4 +922,64 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
+--- !u!114 &1965204363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1965204360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69b3d7f059a49493699079784e8ee0e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myScore: -100
+  easyTimer: 0
+  textForScore: {fileID: 0}
+--- !u!1001 &2144130079
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 434390, guid: 4d20e6c6a273641918ffe6d58c03e2a7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -22.1167831
+      objectReference: {fileID: 0}
+    - target: {fileID: 434390, guid: 4d20e6c6a273641918ffe6d58c03e2a7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.42674923
+      objectReference: {fileID: 0}
+    - target: {fileID: 434390, guid: 4d20e6c6a273641918ffe6d58c03e2a7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434390, guid: 4d20e6c6a273641918ffe6d58c03e2a7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434390, guid: 4d20e6c6a273641918ffe6d58c03e2a7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434390, guid: 4d20e6c6a273641918ffe6d58c03e2a7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 434390, guid: 4d20e6c6a273641918ffe6d58c03e2a7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 434390, guid: 4d20e6c6a273641918ffe6d58c03e2a7, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 21298956, guid: 4d20e6c6a273641918ffe6d58c03e2a7, type: 2}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4d20e6c6a273641918ffe6d58c03e2a7, type: 2}
+  m_IsPrefabParent: 0
