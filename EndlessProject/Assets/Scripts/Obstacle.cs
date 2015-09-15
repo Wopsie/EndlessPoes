@@ -2,22 +2,23 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class Obstacle : MonoBehaviour {
+public class Obstacle : MonoBehaviour
+{
 
     public GameObject enemy;
     public GameObject pointUp;
     public GameObject crate;
     public GameObject powerup;
-    public GameObject platform;
+    //public GameObject platform;
 
     public enum Spawns
     {
         PowerUp,
         ExtraPoints,
         Crate,
-        Platform,
-        Enemy,
-        Bird
+        Enemy
+        //Platform,
+        //Bird
     }
 
     public Dictionary<Spawns, GameObject> map = new Dictionary<Spawns, GameObject>();
@@ -25,22 +26,22 @@ public class Obstacle : MonoBehaviour {
     public float obstacleSpeed = 0.3f;
     private int i;
 
-	// Use this for initialization
-	void Start () 
+    // Use this for initialization
+    void Start()
     {
-	    map.Add(Spawns.Enemy, enemy);
+        map.Add(Spawns.Enemy, enemy);
         map.Add(Spawns.ExtraPoints, pointUp);
         map.Add(Spawns.Crate, crate);
         map.Add(Spawns.PowerUp, powerup);
-        map.Add(Spawns.Platform, platform);
-        
-	}
-	
-	// Update is called once per frame
-	void FixedUpdate () 
+        //map.Add(Spawns.Platform, platform);
+
+    }
+
+    // Update is called once per frame
+    void FixedUpdate()
     {
         //time between spawns
-        if (i >= 90)
+        if (i >= 60)
         {
             Spawner();
             i = 0;
@@ -49,7 +50,7 @@ public class Obstacle : MonoBehaviour {
         {
             i++;
         }
-	}
+    }
 
     void Spawner()
     {
