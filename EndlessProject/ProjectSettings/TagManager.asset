@@ -8,6 +8,7 @@ TagManager:
   - BonusPoints
   - PowerUp
   - HurtPlayer
+  - InstaKillPlayer
   layers:
   - Default
   - TransparentFX

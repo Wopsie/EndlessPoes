@@ -14,7 +14,8 @@ public class PlayerController : MonoBehaviour {
 
 	private bool amIgrounded = false;
 	private bool doIHavePowerUp = false;
-	
+
+	public Vector2 respawnPosition;
 
 	void Start () 
 	{
@@ -47,8 +48,7 @@ public class PlayerController : MonoBehaviour {
 			}
 			else if(doIHavePowerUp == false)
 			{
-				Destroy(this.gameObject);
-				//Player death
+				PlayerDeath();
 			}
 		}
 	}
@@ -68,6 +68,20 @@ public class PlayerController : MonoBehaviour {
 			{
 				doIHavePowerUp = true;
 				animator.SetBool("PowerUpAniState",true);
+			}
+		}
+
+		if(other.gameObject.tag == "InstaKillPlayer")
+		{
+			if(doIHavePowerUp == true)
+			{
+				doIHavePowerUp = false;
+				animator.SetBool("PowerUpAniState", false);
+				this.transform.position = respawnPosition;
+			}
+			else if(doIHavePowerUp == false)
+			{
+				PlayerDeath();
 			}
 		}
 	}
@@ -129,6 +143,12 @@ public class PlayerController : MonoBehaviour {
 				animator.SetBool("AmIFalling", false);
 			}
 		}
+	}
+
+	void PlayerDeath()
+	{
+		//Player dies
+		Destroy(this.gameObject);
 	}
 
 	void GetTheComponents()
