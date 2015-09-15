@@ -13,10 +13,6 @@ public class Crate : Obstacle {
 	// Update is called once per frame
 	void FixedUpdate () 
     {
-        transform.Translate(Vector2.left * obstacleSpeed);
-        if(transform.position.x <= crateOffScreenCords)
-        {
-            Destroy(gameObject);
-        }
+        ObjMovement();
 	}
 }

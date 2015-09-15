@@ -12,10 +12,6 @@ public class PowerUpScript : Obstacle
 	// Update is called once per frame
 	void FixedUpdate () 
     {
-        transform.Translate(Vector2.left * obstacleSpeed);
-        if (transform.position.x <= powerUpOffScreenCords)
-        {
-            Destroy(gameObject);
-        }
+        ObjMovement();
 	}
 }

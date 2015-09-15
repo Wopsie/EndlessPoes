@@ -27,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 170236}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.0999999, y: 4.86999989, z: 0}
+  m_LocalPosition: {x: -14.3500004, y: -1.22000003, z: 0}
   m_LocalScale: {x: 2.61249995, y: 2.74218774, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -93,7 +93,7 @@ MonoBehaviour:
   jumpForce: 1.39999998
   initialJumpForce: 300
   maxExtraJump: 2.5999999
-  respawnPosition: {x: -3.17000008, y: 5}
+  respawnPosition: {x: -14.3500004, y: -1.22000003}
 --- !u!212 &21252224
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -117,7 +117,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300008, guid: 31868c9c5364c4c5fac7126fa2fe36a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
