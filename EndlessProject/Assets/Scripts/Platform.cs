@@ -1,9 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Crate : Obstacle {
-
-    //private float crateOffScreenCords = -24f;
+public class Platform : Obstacle {
 
 	// Use this for initialization
 	void Start () {

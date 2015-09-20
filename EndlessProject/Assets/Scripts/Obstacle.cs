@@ -8,7 +8,8 @@ public class Obstacle : MonoBehaviour
     public GameObject pointUp;
     public GameObject crate;
     public GameObject powerup;
-    //public GameObject platform;
+    public GameObject platform;
+    private int powerSpawn;
 
     public float objOffScreenCords = -24f;
     
@@ -18,8 +19,8 @@ public class Obstacle : MonoBehaviour
         PowerUp,
         ExtraPoints,
         Crate,
-        Enemy
-        //Platform,
+        Enemy,
+        Platform
         //Bird
     }
 
@@ -27,6 +28,7 @@ public class Obstacle : MonoBehaviour
     private Spawns spawns;
     public float obstacleSpeed = 0.3f;
     private int i;
+    private Spawns rarity;
 
     // Use this for initialization
     void Start()
@@ -35,7 +37,7 @@ public class Obstacle : MonoBehaviour
         map.Add(Spawns.ExtraPoints, pointUp);
         map.Add(Spawns.Crate, crate);
         map.Add(Spawns.PowerUp, powerup);
-        //map.Add(Spawns.Platform, platform);
+        map.Add(Spawns.Platform, platform);
     }
 
     // Update is called once per frame
@@ -56,9 +58,23 @@ public class Obstacle : MonoBehaviour
     void Spawner()
     {
         //spawns = Spawns.Enemy;
-        spawns = (Spawns)Random.Range(0, 4);
-        var clone = (GameObject) Instantiate(map[spawns], transform.position, Quaternion.identity);
-
+        spawns = (Spawns)Random.Range(0, 5);
+        rarity = (Spawns)Random.Range(1, 5);
+        var clone = (GameObject)Instantiate(map[spawns], transform.position, Quaternion.identity);
+        powerSpawn++;
+        if(clone.tag == "PowerUp" && powerSpawn >= 8)
+        {
+            Debug.Log("powerup may spawn");
+            Debug.Log(powerSpawn);
+            powerSpawn = 0;
+        }else if(clone.tag == "PowerUp" && powerSpawn <= 8)
+        {
+            Destroy(clone);
+            Debug.Log("powerup may not spawn");
+            Debug.Log(powerSpawn);
+            Instantiate(map[rarity], transform.position, Quaternion.identity);
+        }
+        
         switch(clone.tag)
         {
             case "BonusPoints":
