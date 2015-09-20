@@ -42,7 +42,7 @@ public class Obstacle : MonoBehaviour
     void FixedUpdate()
     {
         //time between spawns
-        if (i >= 60)
+        if (i >= 90)
         {
             Spawner();
             i = 0;
@@ -66,6 +66,10 @@ public class Obstacle : MonoBehaviour
                 break;
 
             case "PowerUp":
+                clone.transform.position = new Vector3(38f, Random.Range(-6.4f, 0f), 0f);
+                break;
+
+            case "Platform":
                 clone.transform.position = new Vector3(38f, Random.Range(-6.4f, 0f), 0f);
                 break;
         }
