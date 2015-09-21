@@ -10,12 +10,18 @@ public class ScoreManager : MonoBehaviour {
 	
 	public Text textForScore;
 	public Text textForHiScore;
+	public Text gameOverText;
 	
 
 	// Use this for initialization
 	void Start () {
 		textForScore.text = "Score: "+myScore;
 		textForHiScore.text = "High Score:"+highScore;
+		gameOverText.text = "";
+	}
+
+	void awake(){
+		DontDestroyOnLoad (this);
 	}
 	
 	// Update is called once per frame
@@ -29,6 +35,15 @@ public class ScoreManager : MonoBehaviour {
 			textForScore.text = "Score: "+myScore;
 		}
 		}
+
+		if(Input.GetKey(KeyCode.Q))
+		{
+			Application.Quit();
+		}
+		if(Input.GetKey(KeyCode.R))
+		{
+			Application.LoadLevel(Application.loadedLevel);
+		}
 	}
 
 	public void GetPointup(){
@@ -39,6 +54,7 @@ public class ScoreManager : MonoBehaviour {
 	public void UpdateHighScore(){
 		if(myScore>highScore)
 		{
+			gameOverText.text = "Press R to retry or press Q to quit";
 			textForScore.text = "New High Score!";
 			highScore = myScore;
 			textForHiScore.text = "High Score: "+highScore;
