@@ -17,6 +17,10 @@ public class PlayerController : MonoBehaviour {
 	private bool doIHavePowerUp = false;
 
 	public Vector2 respawnPosition;
+    public AudioSource jumpAudio;
+
+    //use this to play jumpsound
+    //  jumpAudio.Play();
 
 	void Start () 
 	{

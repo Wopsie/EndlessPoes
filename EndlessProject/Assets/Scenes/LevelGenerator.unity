@@ -242,28 +242,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 21289502, guid: 3d864b41fa23bd1418e5d7956f018b48, type: 2}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 21289502, guid: 3d864b41fa23bd1418e5d7956f018b48, type: 2}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 21289502, guid: 3d864b41fa23bd1418e5d7956f018b48, type: 2}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 456098, guid: 3d864b41fa23bd1418e5d7956f018b48, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 11.528698
-      objectReference: {fileID: 0}
-    - target: {fileID: 21289502, guid: 3d864b41fa23bd1418e5d7956f018b48, type: 2}
-      propertyPath: m_SortingOrder
-      value: 6
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 11433700, guid: 3d864b41fa23bd1418e5d7956f018b48, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d864b41fa23bd1418e5d7956f018b48, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &512969657
@@ -1001,6 +980,7 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
+  m_TargetEye: 3
   m_HDR: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
