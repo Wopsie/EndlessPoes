@@ -43,6 +43,7 @@ public class PlayerController : MonoBehaviour {
 		{
 			if(amIgrounded == false && myRB.velocity.y<0)
 			{
+				myManager.GetPointup();
 				Instantiate(fallingDead, col.gameObject.transform.position, Quaternion.identity);
 				Destroy(col.gameObject);
 				myRB.AddForce(new Vector2(0,initialJumpForce*3.5f));
