@@ -17,7 +17,9 @@ public class PlayerController : MonoBehaviour {
 	private bool doIHavePowerUp = false;
 
 	public Vector2 respawnPosition;
+
     public AudioSource jumpAudio;
+	public AudioSource powerUpAudio;
 
     //use this to play jumpsound
     //  jumpAudio.Play();
@@ -73,7 +75,7 @@ public class PlayerController : MonoBehaviour {
 	{
 		if(other.gameObject.tag == "BonusPoints")
 		{
-			myManager.GetPointup();
+			myManager.GetPointupPickup();
 			Destroy(other.gameObject);
 		}
 
@@ -84,6 +86,11 @@ public class PlayerController : MonoBehaviour {
 			{
 				doIHavePowerUp = true;
 				animator.SetBool("PowerUpAniState",true);
+				powerUpAudio.Play();
+			}
+			else if (doIHavePowerUp == true)
+			{
+				myManager.GetPointupPickup();
 			}
 		}
 
@@ -129,6 +136,7 @@ public class PlayerController : MonoBehaviour {
 			else
 			{
 				myRB.AddForce(new Vector2(0,initialJumpForce));
+				jumpAudio.Play();
 			}
 		}
 	}
@@ -163,7 +171,6 @@ public class PlayerController : MonoBehaviour {
 
 	void PlayerDeath()
 	{
-		//Player dies
 		Destroy(this.gameObject);
 		myManager.UpdateHighScore();
 	}

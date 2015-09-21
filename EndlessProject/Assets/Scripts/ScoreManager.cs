@@ -14,7 +14,9 @@ public class ScoreManager : MonoBehaviour {
 	public Text textForScore;
 	public Text textForHiScore;
 	public Text gameOverText;
-	
+
+	public AudioSource pointAudio;
+	public AudioSource gameOverAudio;
 
 	// Use this for initialization
 	void Start () {
@@ -22,10 +24,7 @@ public class ScoreManager : MonoBehaviour {
 		textForHiScore.text = "High Score:"+highScore;
 		gameOverText.text = "";
 	}
-
-	void Awake() {
-	}
-	// Update is called once per frame
+	
 	void Update () {
 		if(playerIsAlive == true)
 		{
@@ -52,14 +51,21 @@ public class ScoreManager : MonoBehaviour {
 		textForScore.text = "Score: "+myScore;
 	}
 
+	public void GetPointupPickup()
+	{
+		pointAudio.Play();
+		GetPointup();
+	}
+
 	public void UpdateHighScore(){
+		gameOverText.text = "Press R to retry or press Q to quit";
+		playerIsAlive = false;
+		gameOverAudio.Play();
 		if(myScore>highScore)
 		{
-			gameOverText.text = "Press R to retry or press Q to quit";
 			textForScore.text = "New High Score!";
 			highScore = myScore;
 			textForHiScore.text = "High Score: "+highScore;
-			playerIsAlive = false;
 
 		}
 	}
