@@ -12,6 +12,7 @@ GameObject:
   - 95: {fileID: 9531430}
   - 58: {fileID: 5824200}
   - 114: {fileID: 11436714}
+  - 82: {fileID: 8288548}
   m_Layer: 0
   m_Name: PowerUp
   m_TagString: PowerUp
@@ -44,6 +45,75 @@ CircleCollider2D:
   m_Offset: {x: -.0599999987, y: 0}
   serializedVersion: 2
   m_Radius: 1.11551249
+--- !u!82 &8288548
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192792}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!95 &9531430
 Animator:
   serializedVersion: 3
@@ -76,6 +146,8 @@ MonoBehaviour:
   pointUp: {fileID: 0}
   crate: {fileID: 0}
   powerup: {fileID: 0}
+  platform: {fileID: 0}
+  objOffScreenCords: -24
   obstacleSpeed: .300000012
 --- !u!212 &21278358
 SpriteRenderer:

@@ -44,7 +44,7 @@ public class Obstacle : MonoBehaviour
     void FixedUpdate()
     {
         //time between spawns
-        if (i >= 90)
+        if (i >= 70)
         {
             Spawner();
             i = 0;

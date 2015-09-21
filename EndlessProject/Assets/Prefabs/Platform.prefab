@@ -59,7 +59,7 @@ MonoBehaviour:
   crate: {fileID: 0}
   powerup: {fileID: 0}
   platform: {fileID: 0}
-  objOffScreenCords: -30
+  objOffScreenCords: -35
   obstacleSpeed: .300000012
 --- !u!212 &21243222
 SpriteRenderer:
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 0365f6fd0c55f4749a0b0abf786ae1bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
@@ -93,7 +93,15 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: objOffScreenCords
+      value: -35
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SortingOrder
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 146234}
