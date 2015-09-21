@@ -161,6 +161,7 @@ public class PlayerController : MonoBehaviour {
 	{
 		//Player dies
 		Destroy(this.gameObject);
+		myManager.UpdateHighScore();
 	}
 
 	void GetTheComponents()

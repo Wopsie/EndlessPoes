@@ -129,6 +129,80 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6362c5c8ee0e4784793497860e23489e, type: 2}
   m_IsPrefabParent: 0
+--- !u!224 &155639015 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 22415136, guid: 8844f08d29ce94146848dbe1bf5ceef5,
+    type: 2}
+  m_PrefabInternal: {fileID: 923545527}
+--- !u!1 &270653377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 173088, guid: 8844f08d29ce94146848dbe1bf5ceef5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 270653378}
+  - 222: {fileID: 270653380}
+  - 114: {fileID: 270653379}
+  m_Layer: 5
+  m_Name: HighScoreCText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &270653378
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22485890, guid: 8844f08d29ce94146848dbe1bf5ceef5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 270653377}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 155639015}
+  m_RootOrder: 1
+  m_AnchorMin: {x: .5, y: .5}
+  m_AnchorMax: {x: .5, y: .5}
+  m_AnchoredPosition: {x: -350.420013, y: 277}
+  m_SizeDelta: {x: 317.149994, y: 35}
+  m_Pivot: {x: .5, y: .5}
+--- !u!114 &270653379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11491328, guid: 8844f08d29ce94146848dbe1bf5ceef5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 270653377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: .196078435, g: .196078435, b: .196078435, a: 1}
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 25
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'High-Score: '
+--- !u!222 &270653380
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22242798, guid: 8844f08d29ce94146848dbe1bf5ceef5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 270653377}
 --- !u!1001 &312139474
 Prefab:
   m_ObjectHideFlags: 0
@@ -397,11 +471,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22485890, guid: 8844f08d29ce94146848dbe1bf5ceef5, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -429
+      value: -350.420013
       objectReference: {fileID: 0}
     - target: {fileID: 22485890, guid: 8844f08d29ce94146848dbe1bf5ceef5, type: 2}
       propertyPath: m_AnchoredPosition.y
       value: 312
+      objectReference: {fileID: 0}
+    - target: {fileID: 173088, guid: 8844f08d29ce94146848dbe1bf5ceef5, type: 2}
+      propertyPath: m_Name
+      value: ScoreCText
+      objectReference: {fileID: 0}
+    - target: {fileID: 11456052, guid: 8844f08d29ce94146848dbe1bf5ceef5, type: 2}
+      propertyPath: textForHiScore
+      value: 
+      objectReference: {fileID: 270653379}
+    - target: {fileID: 11456052, guid: 8844f08d29ce94146848dbe1bf5ceef5, type: 2}
+      propertyPath: highScore
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 22485890, guid: 8844f08d29ce94146848dbe1bf5ceef5, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 317.149994
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8844f08d29ce94146848dbe1bf5ceef5, type: 2}
@@ -606,7 +696,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 456098, guid: 3d864b41fa23bd1418e5d7956f018b48, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 21289502, guid: 3d864b41fa23bd1418e5d7956f018b48, type: 2}
       propertyPath: m_Color.r
