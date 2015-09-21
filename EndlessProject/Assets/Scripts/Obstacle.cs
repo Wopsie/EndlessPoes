@@ -10,6 +10,7 @@ public class Obstacle : MonoBehaviour
     public GameObject powerup;
     public GameObject platform;
     private int powerSpawn;
+    private int platformSpawn;
 
     public float objOffScreenCords = -24f;
     
@@ -29,6 +30,7 @@ public class Obstacle : MonoBehaviour
     public float obstacleSpeed = 0.3f;
     private int i;
     private Spawns rarity;
+    private Spawns platSpawn;
 
     // Use this for initialization
     void Start()
@@ -60,19 +62,32 @@ public class Obstacle : MonoBehaviour
         //spawns = Spawns.Enemy;
         spawns = (Spawns)Random.Range(0, 5);
         rarity = (Spawns)Random.Range(1, 5);
+        platSpawn = (Spawns)Random.Range(1, 4);
         var clone = (GameObject)Instantiate(map[spawns], transform.position, Quaternion.identity);
         powerSpawn++;
-        if(clone.tag == "PowerUp" && powerSpawn >= 8)
+        platformSpawn++;
+        if(clone.tag == "PowerUp" && powerSpawn >= 12)
         {
             Debug.Log("powerup may spawn");
             Debug.Log(powerSpawn);
             powerSpawn = 0;
-        }else if(clone.tag == "PowerUp" && powerSpawn <= 8)
+
+        }else if(clone.tag == "PowerUp" && powerSpawn <= 12)
         {
             Destroy(clone);
             Debug.Log("powerup may not spawn");
             Debug.Log(powerSpawn);
             Instantiate(map[rarity], transform.position, Quaternion.identity);
+        }
+
+        if(clone.tag == "GroundFloor" && platformSpawn >= 2)
+        {
+            platformSpawn = 0;
+        }else if(clone.tag == "GroundFloor" && platformSpawn <= 2)
+        {
+            Destroy(clone);
+            Instantiate(map[platSpawn], transform.position, Quaternion.identity);
+            
         }
         
         switch(clone.tag)
