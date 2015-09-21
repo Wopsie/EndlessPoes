@@ -395,6 +395,14 @@ Prefab:
       propertyPath: myScore
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 22485890, guid: 8844f08d29ce94146848dbe1bf5ceef5, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -429
+      objectReference: {fileID: 0}
+    - target: {fileID: 22485890, guid: 8844f08d29ce94146848dbe1bf5ceef5, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 312
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8844f08d29ce94146848dbe1bf5ceef5, type: 2}
   m_IsPrefabParent: 0
