@@ -236,7 +236,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 317.149994, y: 35}
+  m_SizeDelta: {x: 727, y: 35}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &290156190
 MonoBehaviour:
@@ -535,12 +535,16 @@ Prefab:
       objectReference: {fileID: 270653379}
     - target: {fileID: 11456052, guid: 8844f08d29ce94146848dbe1bf5ceef5, type: 2}
       propertyPath: highScore
-      value: 20
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 22485890, guid: 8844f08d29ce94146848dbe1bf5ceef5, type: 2}
       propertyPath: m_SizeDelta.x
       value: 317.149994
       objectReference: {fileID: 0}
+    - target: {fileID: 11456052, guid: 8844f08d29ce94146848dbe1bf5ceef5, type: 2}
+      propertyPath: gameOverText
+      value: 
+      objectReference: {fileID: 290156190}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8844f08d29ce94146848dbe1bf5ceef5, type: 2}
   m_IsPrefabParent: 0
@@ -1049,7 +1053,6 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
-  m_TargetEye: 3
   m_HDR: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10

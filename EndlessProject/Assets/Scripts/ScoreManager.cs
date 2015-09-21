@@ -4,6 +4,9 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour {
 	private bool playerIsAlive = true;
+
+	public static ScoreManager Instance;
+
 	public int myScore = 0;
 	public int easyTimer = 0;
 	public int highScore = 10000;
@@ -20,10 +23,8 @@ public class ScoreManager : MonoBehaviour {
 		gameOverText.text = "";
 	}
 
-	void awake(){
-		DontDestroyOnLoad (this);
+	void Awake() {
 	}
-	
 	// Update is called once per frame
 	void Update () {
 		if(playerIsAlive == true)
