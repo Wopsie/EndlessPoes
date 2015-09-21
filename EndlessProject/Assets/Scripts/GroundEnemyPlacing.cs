@@ -5,7 +5,7 @@ public class GroundEnemyPlacing : MonoBehaviour
 {
 
     private float gEnemyOffScreenCords = -24f;
-    public float groundEnemySpeed = 0.3f;
+    private float groundEnemySpeed = 0.4f;
     
 	// Use this for initialization
 	void Start () 
