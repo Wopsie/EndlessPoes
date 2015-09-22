@@ -20,12 +20,14 @@ public class ScoreManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		//Get UI elements
 		textForScore.text = "Score: "+myScore;
 		textForHiScore.text = "High Score:"+highScore;
 		gameOverText.text = "";
 	}
 	
 	void Update () {
+		//Add 100 score every few seconds
 		if(playerIsAlive == true)
 		{
 		easyTimer++;
@@ -35,7 +37,7 @@ public class ScoreManager : MonoBehaviour {
 			textForScore.text = "Score: "+myScore;
 		}
 		}
-
+		//Q to quit, R to reset
 		if(Input.GetKey(KeyCode.Q))
 		{
 			Application.Quit();
@@ -47,17 +49,20 @@ public class ScoreManager : MonoBehaviour {
 	}
 
 	public void GetPointup(){
+		//Extra score (no sound)
 		myScore+=500;
 		textForScore.text = "Score: "+myScore;
 	}
 
 	public void GetPointupPickup()
 	{
+		//Extra score with sound
 		pointAudio.Play();
 		GetPointup();
 	}
 
 	public void UpdateHighScore(){
+		//Game over
 		gameOverText.text = "Press R to retry or press Q to quit";
 		playerIsAlive = false;
 		gameOverAudio.Play();

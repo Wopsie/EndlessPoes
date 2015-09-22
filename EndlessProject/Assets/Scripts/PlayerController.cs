@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour {
 
 	void OnCollisionEnter2D (Collision2D col)
 	{
+		//Colliding with floor
 		if(col.gameObject.tag == "GroundFloor")
 		{
 			animator.SetBool("AmIGrounded",true);
@@ -47,6 +48,7 @@ public class PlayerController : MonoBehaviour {
 
 		if(col.gameObject.tag == "HurtPlayer")
 		{
+			//Colliding with enemy
 			if(amIgrounded == false && myRB.velocity.y<0)
 			{
 				myManager.GetPointup();
@@ -73,12 +75,13 @@ public class PlayerController : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
+		//Extra point pick up
 		if(other.gameObject.tag == "BonusPoints")
 		{
 			myManager.GetPointupPickup();
 			Destroy(other.gameObject);
 		}
-
+		//Power up pick up
 		if(other.gameObject.tag == "PowerUp")
 		{
 			Destroy(other.gameObject);
@@ -96,6 +99,7 @@ public class PlayerController : MonoBehaviour {
 
 		if(other.gameObject.tag == "InstaKillPlayer")
 		{
+			//When player is out of bounds
 			if(doIHavePowerUp == true)
 			{
 				doIHavePowerUp = false;
@@ -111,6 +115,7 @@ public class PlayerController : MonoBehaviour {
 
 	void OnCollisionExit2D (Collision2D col)
 	{
+		//Check if player is on the floor
 		if(col.gameObject.tag == "GroundFloor")
 		{
 			animator.SetBool("AmIGrounded",false);
@@ -122,6 +127,7 @@ public class PlayerController : MonoBehaviour {
 
 	void GetButtonInput ()
 	{
+		//Get player input
 		if (Input.GetKey(KeyCode.Space) && amIgrounded == false)
 		{
 			elapsedTime += Time.deltaTime*20;
@@ -143,6 +149,7 @@ public class PlayerController : MonoBehaviour {
 
 	void ElapsedTimeManager()
 	{
+		//Manage jump height
 		if((elapsedTime > maxExtraJump))
 		{
 			elapsedTime = maxExtraJump;
@@ -156,6 +163,7 @@ public class PlayerController : MonoBehaviour {
 
 	void FallingCheck()
 	{
+		//Check if falling
 		if(amIgrounded == false)
 		{
 			if(myRB.velocity.y<0)
@@ -171,6 +179,7 @@ public class PlayerController : MonoBehaviour {
 
 	void PlayerDeath()
 	{
+		//Game over!
 		Destroy(this.gameObject);
 		myManager.UpdateHighScore();
 	}
