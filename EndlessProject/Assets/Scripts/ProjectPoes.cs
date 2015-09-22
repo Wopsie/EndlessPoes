@@ -5,13 +5,6 @@ public class ProjectPoes : MonoBehaviour {
 
     public int SpeedLimit = 0;
 
-	// Use this for initialization
-	void Start () 
-    {
-	    
-	}
-	
-	// Update is called once per frame
 	void Update () 
     {
         SpeedLimit++;
@@ -23,8 +16,4 @@ public class ProjectPoes : MonoBehaviour {
             Application.LoadLevel("MenuScene");
         }
 	}
-    void FixedUpdate()
-    {
-
-    }
 }

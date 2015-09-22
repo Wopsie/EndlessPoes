@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Platform : Obstacle {
-	
-	// Update is called once per frame
+public class Platform : Obstacle 
+{
 	void FixedUpdate () 
     {
         ObjMovement();
