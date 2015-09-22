@@ -41,7 +41,6 @@ public class Obstacle : MonoBehaviour
         map.Add(Spawns.Platform, platform);
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         //time between spawns
@@ -56,15 +55,16 @@ public class Obstacle : MonoBehaviour
         }
     }
 
+    //function that makes random objects spawn
     void Spawner()
     {
-        //spawns = Spawns.Enemy;
         spawns = (Spawns)Random.Range(0, 5);
         rarity = (Spawns)Random.Range(1, 5);
         platSpawn = (Spawns)Random.Range(1, 4);
 
         var clone = (GameObject)Instantiate(map[spawns], transform.position, Quaternion.identity);
 
+        //counters and ifstatements for ajusting the rarity of powerups and platforms
         powerSpawn++;
         platformSpawn++;
 
@@ -79,15 +79,14 @@ public class Obstacle : MonoBehaviour
 
         if(clone.tag == "GroundFloor" && platformSpawn >= 4)
         {
-            Debug.Log("THOU CAN SPAWN THE PLATFORM " + platformSpawn);
             platformSpawn = 0;
         }else if(clone.tag == "GroundFloor" && platformSpawn <= 4)
         {
-            Debug.Log("DONT SPAWN THAT SHIT " + platformSpawn);
             Destroy(clone);
             Instantiate(map[platSpawn], transform.position, Quaternion.identity);
         }
         
+        //randomize height of powerups and pickups
         switch(clone.tag)
         {
             case "BonusPoints":
@@ -99,7 +98,8 @@ public class Obstacle : MonoBehaviour
                 break;
         }
     }
-
+    
+    //function inherited by all objects moving towards the player, making them move
     public void ObjMovement()
     {
         transform.Translate(Vector2.left * obstacleSpeed);

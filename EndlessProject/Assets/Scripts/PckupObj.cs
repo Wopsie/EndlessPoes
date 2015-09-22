@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Platform : Obstacle 
+public class PckupObj : Obstacle 
 {
-	void FixedUpdate () 
+    void FixedUpdate()
     {
         ObjMovement();
-	}
+    }
 }

@@ -12,7 +12,7 @@ GameObject:
   - 212: {fileID: 21257220}
   - 61: {fileID: 6152644}
   - 50: {fileID: 5080806}
-  - 114: {fileID: 11471646}
+  - 114: {fileID: 11432284}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: HurtPlayer
@@ -78,7 +78,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11471646
+--- !u!114 &11432284
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -86,10 +86,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 155162}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 160d8d7cdbc0eb54e8274759d0d90f80, type: 3}
+  m_Script: {fileID: 11500000, guid: 464b79701a83b0c479f39c95db65916b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundEnemySpeed: .400000006
+  enemy: {fileID: 0}
+  pointUp: {fileID: 0}
+  crate: {fileID: 0}
+  powerup: {fileID: 0}
+  platform: {fileID: 0}
+  objOffScreenCords: -24
+  obstacleSpeed: .400000006
 --- !u!212 &21257220
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -142,6 +148,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_SortingOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: obstacleSpeed
+      value: .400000006
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

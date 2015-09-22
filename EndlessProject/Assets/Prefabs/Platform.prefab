@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 498740}
   - 212: {fileID: 21243222}
   - 61: {fileID: 6197160}
-  - 114: {fileID: 11459928}
+  - 114: {fileID: 11408384}
   m_Layer: 0
   m_Name: Platform
   m_TagString: GroundFloor
@@ -43,7 +43,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 1.31819773}
   serializedVersion: 2
   m_Size: {x: 12.7999992, y: .9136042}
---- !u!114 &11459928
+--- !u!114 &11408384
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -51,7 +51,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 146234}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b580cb47696fb2149b60589b22d51861, type: 3}
+  m_Script: {fileID: 11500000, guid: 464b79701a83b0c479f39c95db65916b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
@@ -59,7 +59,7 @@ MonoBehaviour:
   crate: {fileID: 0}
   powerup: {fileID: 0}
   platform: {fileID: 0}
-  objOffScreenCords: -35
+  objOffScreenCords: -30
   obstacleSpeed: .300000012
 --- !u!212 &21243222
 SpriteRenderer:
@@ -96,7 +96,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: objOffScreenCords
-      value: -35
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_SortingOrder

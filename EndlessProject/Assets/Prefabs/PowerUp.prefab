@@ -11,9 +11,8 @@ GameObject:
   - 212: {fileID: 21278358}
   - 95: {fileID: 9531430}
   - 58: {fileID: 5824200}
-  - 114: {fileID: 11436714}
-  - 114: {fileID: 11411036}
   - 82: {fileID: 8222248}
+  - 114: {fileID: 11457846}
   m_Layer: 0
   m_Name: PowerUp
   m_TagString: PowerUp
@@ -132,7 +131,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11411036
+--- !u!114 &11457846
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -140,19 +139,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 192792}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ebbf6b53494d4ae3859019d21891e35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  powerAudio: {fileID: 0}
---- !u!114 &11436714
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 192792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89272ba1ff549e046990e3a78ffd3b69, type: 3}
+  m_Script: {fileID: 11500000, guid: 464b79701a83b0c479f39c95db65916b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}

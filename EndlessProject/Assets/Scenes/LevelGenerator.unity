@@ -940,7 +940,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 448110, guid: 3c7b5da739bcb4a7bbcd8943104f2a40, type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6126726, guid: 3c7b5da739bcb4a7bbcd8943104f2a40, type: 2}
       propertyPath: m_IsTrigger
